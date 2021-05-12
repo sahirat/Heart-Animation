@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Background Image in a Text</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Reggae One', cursive;
+        }
+        .parent{
+            width:100vw;
+            height: 100vh;
+         display:flex;
+            justify-content: center;
+            align-items: center;
+            background:rgba(255, 255, 255, 0.885);
+            flex-direction: column;
+            
+
+        }
+        h1{
+            font-size: 125px;
+            color: transparent;
+            background-image: url('https://thypix.com/wp-content/uploads/herzbild-172.jpg');
+            background-size:100% 100%;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            
+            
+        }
+          p{
+            font-size: 45px;
+            color: transparent;
+            background-image: url('https://thypix.com/wp-content/uploads/herzbild-172.jpg');
+            background-size:100% 100%;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+     <div class="parent">
+         <h1>Sahil Singh Rathore</h1>
+         <p>- web developer</p>
+
+     </div>
+</body>
+</html>
